@@ -1,5 +1,8 @@
 Revision history for Perl extension Time::Duration::Parse
 
+0.11 2014-03-
+    - Min perl version now set to 5.6.0
+
 0.10 2014-03-24
     - Switched to Dist::Zilla. The Module::Install Makefile.PL was resulting
       in dependency problems and CPAN Testers fails, and I'm not familiar with
