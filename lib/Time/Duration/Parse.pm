@@ -109,9 +109,9 @@ L<Time::Duration::LocaleObject> provides an OO interface to the
 C<Time::Duration::??> modules, which provide language-specific versions
 of L<Time::Duration>.
 
-L<Date::Manip>,
-L<DateTime::Format::Duration>,
-L<http://use.perl.org/~miyagawa/journal/30310>
+L<DateTime::Format::Duration> can be used to parse natural language
+descriptions of durations, returning an instance of L<DateTime::Duration>,
+which can then be converted to seconds using the C<in_units()> method.
 
 =head1 REPOSITORY
 
