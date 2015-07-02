@@ -1,5 +1,9 @@
 Revision history for Perl extension Time::Duration::Parse
 
+0.12 2015-07-02 NEILB
+    - Added [MetaJSON] to dist.ini, so the dist will get a META.json file.
+      RT#105627 from ETHER.
+
 0.11 2014-03-26
     - Min perl version now set to 5.6.0
     - Added description of DateTime::Format::Duration to SEE ALSO
