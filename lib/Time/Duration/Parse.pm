@@ -15,7 +15,7 @@ my %Units = ( map(($_,             1), qw(s second seconds sec secs)),
               map(($_,         60*60), qw(h hr hour hours)),
               map(($_,      60*60*24), qw(d day days)),
               map(($_,    60*60*24*7), qw(w week weeks)),
-              map(($_,   60*60*24*30), qw(M month months)),
+              map(($_,   60*60*24*30), qw(M month months mo mon mons)),
               map(($_,  60*60*24*365), qw(y year years)) );
 
 sub parse_duration {
@@ -115,7 +115,7 @@ which can then be converted to seconds using the C<in_units()> method.
 
 =head1 REPOSITORY
 
-L<https://github.com/neilbowers/Time-Duration-Parse>
+L<https://github.com/neilb/Time-Duration-Parse>
 
 =head1 AUTHOR
 
