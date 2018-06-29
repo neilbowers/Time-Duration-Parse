@@ -1,5 +1,8 @@
 Revision history for Perl extension Time::Duration::Parse
 
+0.14 2018-06-29 NEILB
+    - Added "hrs" as another form for "hours". Thanks to Stig for the PR.
+
 0.13 2015-10-25 NEILB
     - Added additional abbrevations for 'months': 'mo', 'mon', 'mons'.
       Thanks to PERLANCAR.
