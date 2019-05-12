@@ -71,8 +71,10 @@ Time::Duration::Parse - Parse string that represents time duration
 Time::Duration::Parse is a module to parse human readable duration
 strings like I<2 minutes and 3 seconds> to seconds.
 
-It does the opposite of I<duration_exact> function in Time::Duration
-and is roundtrip safe. So, the following is always true.
+It does the opposite of L<Time::Duration/duration_exact> function
+in L<Time::Duration>
+and is roundtrip safe.
+So, the following is always true.
 
   use Time::Duration::Parse;
   use Time::Duration;
