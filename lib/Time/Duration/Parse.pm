@@ -90,9 +90,10 @@ So, the following is always true.
 
   $seconds = parse_duration($string);
 
-Parses duration string and returns seconds. When it encounters an
-error in a given string, it dies an exception saying "Unknown
-timespec: blah blah blah". This function is exported by default.
+Parses duration string and returns seconds.
+When it encounters an error in a given string,
+it dies with an exception saying "Unknown timespec: blah blah blah".
+This function is exported by default.
 
 =back
 
