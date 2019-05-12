@@ -30,7 +30,7 @@ sub parse_duration {
     }
 
     # Convert hh:mm(:ss)? to something we understand
-    $timespec =~ s/\b(\d+):(\d\d):(\d\d)\b/$1h $2m $3s/g;
+    $timespec =~ s/\b(\d+):(\d\d):(\d\d(\.\d+)?)\b/$1h $2m $3s/g;
     $timespec =~ s/\b(\d+):(\d\d)\b/$1h $2m/g;
 
     my $duration = 0;
