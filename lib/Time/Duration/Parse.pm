@@ -5,7 +5,7 @@ use strict;
 use warnings;
 
 use Carp;
-use Exporter::Lite;
+use Exporter 5.57 qw(import);
 our @EXPORT = qw( parse_duration );
 
 # This map is taken from Cache and Cache::Cache
